@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#102c2b"><meta name="description" content="Un jardín de cartas, lirios y recuerdos. Para Maryore, con amor de Brayan.">
+  <title>Nuestro jardín · Para Maryore</title>
+  <link rel="icon" href="assets/lirio.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="music" src="assets/nuestra-cancion.mp3" preload="metadata" loop></audio>
+  <div class="scenery" aria-hidden="true"></div><div class="shade" aria-hidden="true"></div><div id="fireflies" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#jardin" aria-label="Nuestro jardín, inicio"><img src="assets/lirio.svg" alt=""><span>Nuestro jardín<small>MARYORE & BRAYAN</small></span></a>
+    <div class="top-actions"><span class="date">13 de noviembre</span><button id="musicButton" class="music-pill" aria-label="Reproducir nuestra canción" aria-pressed="false"><span class="music-note">♫</span><span>Nuestra canción<small>Río Roma · Me cambiaste la vida</small></span><span id="playIcon">▷</span></button></div>
+  </header>
+  <main id="stage" tabindex="-1"></main>
+  <nav id="navigation" class="dock" aria-label="Secciones del regalo" hidden>
+    <button data-go="jardin"><span>❀</span>Jardín</button><button data-go="cartas"><span>✉</span>Cartas</button><button data-go="historia"><span>▧</span>Historia</button><button data-go="cumple"><span>♧</span>Cumpleaños</button>
+  </nav>
+  <div id="pageTurn" class="page-turn" aria-hidden="true"><span class="page-line">Un recuerdo más de nosotros…</span></div>
+  <div id="confetti" aria-hidden="true"></div><p id="toast" role="status"></p>
+  <footer class="signature">Hecho con amor por Brayan, para sus cachetitos.</footer>
+  <script src="content.js"></script><script src="app.js"></script>
+</body>
+</html>

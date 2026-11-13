@@ -1,0 +1,1 @@
+{"name":"nuestro-jardin-maryore","private":true,"type":"module","scripts":{"dev":"node preview.mjs","check":"node --check dist/app.js && node --check dist/content.js"}}
